@@ -15,3 +15,4 @@ with open('catalogplay.csv', 'w', newline='') as file:
     writer.writerow(["Title", "Price"]) # título
     for pessoa in ficha_cadastral:
         writer.writerow(pessoa)
+print("hello world")
