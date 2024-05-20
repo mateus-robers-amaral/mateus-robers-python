@@ -10,8 +10,7 @@ print()
 menor = 51
 for i in range(0, 10):
     for j in range(0, 10):
-        if matriz[i][j] < menor:
-            menor = matriz[i][j]
+        if matriz[j][i] < menor:
+            menor = matriz[j][i]
     print(menor)
     menor = 51
-
